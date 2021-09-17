@@ -1,0 +1,26 @@
+.List {
+  background-color: #81f4e1;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 10px;
+  list-style: none;
+}
+.listItem {
+  align-items: center;
+  display: flex;
+  height: fit-content;
+  padding: 10px;
+}
+.listItem button {
+  margin-left: 10px;
+  background-color: #56cbf9;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.listItem button:hover {
+  transition: 0.3s;
+  border: 1px solid #56cbf9;
+  background-color: #fff;
+}

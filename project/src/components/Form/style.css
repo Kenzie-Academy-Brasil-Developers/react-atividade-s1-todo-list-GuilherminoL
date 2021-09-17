@@ -1,0 +1,22 @@
+.btn {
+  background-color: #56cbf9;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+}
+.input {
+  border: 1px solid grey;
+  border-radius: 10px 0 0 10px;
+}
+.btn:hover {
+  transition: 0.3s;
+  border: 1px solid #56cbf9;
+  border-left: none;
+  background-color: #fff;
+}
+header {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
