@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #819595;
+}
+button:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  border: 1px solid #819595;
+  background-color: #000000;
+  color: #fff;
+}
